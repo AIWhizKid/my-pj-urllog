@@ -1,0 +1,46 @@
+body {
+    background-color: violet;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="url"],
+textarea {
+    background-color: white;
+    color: violet;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    color: violet;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#status {
+    font-size: 18px;
+    margin-top: 10px;
+}
